@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# db
+diamond/data
+
+# misc
+.DS_Store
+.env
+.env.dev
+.env.prod
+.env.local
+
+# npm
+npm-debug.log*

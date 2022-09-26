@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My JavaScript App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <script>
+      (async () => {
+        const response = await fetch('/example/hello');
+
+        if (response?.ok) {
+          const result = await response.json();
+
+          document.write(result.message);
+        }
+      })();
+    </script>
+  </body>
+</html>

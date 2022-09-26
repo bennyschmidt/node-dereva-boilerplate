@@ -1,4 +1,4 @@
-This project was bootstraped with `node-dereva-boilerplate`.
+This project was bootstraped with [`node-service-core`](https://github.com/bennyschmidt/node-service-core).
 
 Add an `.env` file to the root of your directory with the following scaffold:
 

@@ -1,10 +1,6 @@
 const path = require('path');
 
-const {
-  NODE_ENV,
-  PORT,
-  URL
-} = require('./src/constants');
+const { PORT, URL } = require('./src/constants');
 
 // Define services
 
@@ -22,9 +18,7 @@ const Apps = [
 
 // Configure HTTP
 
-const isProduction = NODE_ENV === 'production';
-
-const http = require(isProduction ? 'https' : 'http');
+const http = require('http');
 const express = require('express');
 const cors = require('cors');
 

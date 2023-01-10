@@ -1,16 +1,13 @@
 {
   "name": "node-dereva-boilerplate",
-  "version": "0.1.1",
-  "engines": {
-    "node": "16.14.2"
-  },
+  "version": "0.1.2",
   "scripts": {
     "start": "node index",
     "lint": "eslint ./src/apps --fix && eslint ./src/services --fix"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dereva": "^1.5.9",
+    "dereva": "^1.6.7",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1",
